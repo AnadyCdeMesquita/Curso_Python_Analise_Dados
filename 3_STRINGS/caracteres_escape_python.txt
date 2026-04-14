@@ -1,0 +1,12 @@
+| Sequência | Significado                        | Exemplo                           |
+| --------- | ---------------------------------- | --------------------------------- |
+| \n        | Nova linha (line break)            | Quebra para a linha de baixo      |
+| \t        | Tabulação (tab)                    | Espaço horizontal                 |
+| \\        | Barra invertida (escapar o '\')    | Imprime '\'                       |
+| \'        | Aspa simples                       | Útil em strings com aspas simples |
+| \"        | Aspa dupla                         | Útil em strings com aspas duplas  |
+| \r        | Retorno de carro (carriage return) | Volta ao início da linha          |
+| \b        | Backspace (apaga um caractere)     | Nem todos os terminais aplicam    |
+| \a        | Alerta sonoro (beep)               | Pouco usado atualmente            |
+| \f        | Form feed (avanço de página)       | Raramente usado                   |
+| \v        | Tabulação vertical                 | Raramente usado                   |

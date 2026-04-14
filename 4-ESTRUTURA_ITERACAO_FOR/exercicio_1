@@ -1,0 +1,58 @@
+funcionarios = [
+    ["Ana", 28, 3200.00],
+    ["Bruno", 35, 4100.00],
+    ["Carla", 22, 3000.00],
+    ["Daniel", 40, 5000.00],
+    ["Eduarda", 30, 3600.00],
+    ["Felipe", 45, 4200.00],
+    ["Gustavo", 27, 3100.00],
+    ["Helena", 33, 3900.00],
+    ["Igor", 50, 4500.00],
+    ["Julia", 24, 3300.00],
+]
+mais_velho = funcionarios[0]
+mais_novo = funcionarios[0]
+nome_velho = funcionarios[0]
+nome_novo = funcionarios[0]
+
+for f in funcionarios:
+  nome = idade = salario = funcionarios
+  if idade > mais_velho[1]:
+    mais_velho[1] = f
+  if idade < mais_novo[1]:
+    mais_novo[1] = f
+    
+print(f'mais velho: {mais_velho[1]} e {nome_velho[0]}')
+  
+  
+  
+  
+  
+# qtde = len(funcionarios)
+# total_salarios = 0
+# total_idade = 0 
+
+# mais_novo = funcionarios[0]
+# mais_velho =  funcionarios[0]
+
+# for f in funcionarios:
+#   nome = f[0] 
+#   idade = f[1]
+#   salario = f[2]
+  
+#   total_salarios += salario
+#   total_idade += idade
+  
+#   if idade < mais_novo[1]:
+#     mais_novo = f
+  
+#   if idade > mais_velho[1]:
+#     mais_velho = f
+
+# media_salario = total_salarios / qtde
+# media_idade  = total_idade // qtde
+
+# print(f'A média de salários é {media_salario}')
+# print(f'A média de idade é {media_idade}')
+# print(f'O funcionário mais novo é {mais_novo[0]} e a idade é {mais_novo[1]}')
+# print(f'O funcionário mais novo é {mais_velho[0]} e a idade é {mais_velho[1]}')

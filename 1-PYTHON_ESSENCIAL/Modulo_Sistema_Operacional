@@ -1,0 +1,7 @@
+import os
+print(os.name)
+os.system('cls')
+
+print('comando 1')
+print('comando 2')
+print('comando 3')

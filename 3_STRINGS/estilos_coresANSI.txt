@@ -1,0 +1,34 @@
+Estilos de texto
+| Código | Estilo         |
+| ------ | -------------- |
+| 0      | Reset          |
+| 1      | Negrito        |
+| 2      | Escurecido     |
+| 3      | Itálico        |
+| 4      | Sublinhado     |
+| 7      | Inverter cores do terminal -fundo branco letra preta |
+| 9      | Tachado        |
+
+Cores de texto (foreground)
+| Código | Cor      |
+| ------ | -------- |
+| 30     | Preto    |
+| 31     | Vermelho |
+| 32     | Verde    |
+| 33     | Amarelo  |
+| 34     | Azul     |
+| 35     | Magenta  |
+| 36     | Ciano    |
+| 37     | Branco   |
+
+Cores de fundo (background)
+| Código | Cor      |
+| ------ | -------- |
+| 40     | Preto    |
+| 41     | Vermelho |
+| 42     | Verde    |
+| 43     | Amarelo  |
+| 44     | Azul     |
+| 45     | Magenta  |
+| 46     | Ciano    |
+| 47     | Branco   |
