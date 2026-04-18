@@ -11,9 +11,13 @@ pessoa = {
 # print(pessoa.keys())
 
 #pode se passar esses valores para tuplas ou listas
-# print(list(pessoa.items()))
-# print(tuple(pessoa.values()))
-# print(pessoa.keys())
+print(tuple(pessoa.items()))
+print(tuple(pessoa.values()))
+print(tuple(pessoa.keys()))
+print('#'* 15)
+print(list(pessoa.items()))
+print(list(pessoa.values()))
+print(list(pessoa.keys()))
 
 #UPDATE 
 #DICIONÁRIOS COM DICIONÁRIOS
@@ -29,10 +33,10 @@ pessoa = {
 # pessoa.update(nova_lista)
 # print(pessoa)
 
-nova_tupla = (('raca', 'yorkshire'), ('racao', 'prime'))
-pessoa.update(nova_tupla)
-print(pessoa)
+# nova_tupla = (('raca', 'yorkshire'), ('racao', 'prime'))
+# pessoa.update(nova_tupla)
+# print(pessoa)
 
-# clear
-pessoa.clear()
-print(pessoa)
+# # clear
+# pessoa.clear()
+# print(pessoa)
